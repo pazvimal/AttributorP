@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B2049031A01D4BF002EEB1A /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2049021A01D4BF002EEB1A /* TextStatsViewController.m */; };
 		6BF8D0C219FDE11B003F1D02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF8D0C119FDE11B003F1D02 /* Foundation.framework */; };
 		6BF8D0C419FDE11B003F1D02 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF8D0C319FDE11B003F1D02 /* CoreGraphics.framework */; };
 		6BF8D0C619FDE11B003F1D02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF8D0C519FDE11B003F1D02 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B2049011A01D4BF002EEB1A /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
+		6B2049021A01D4BF002EEB1A /* TextStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
 		6BF8D0BE19FDE11B003F1D02 /* AttributorP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttributorP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF8D0C119FDE11B003F1D02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6BF8D0C319FDE11B003F1D02 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				6BF8D0D319FDE11B003F1D02 /* Main.storyboard */,
+				6B2049011A01D4BF002EEB1A /* TextStatsViewController.h */,
+				6B2049021A01D4BF002EEB1A /* TextStatsViewController.m */,
 				6BF8D0D619FDE11B003F1D02 /* AttributorPViewController.h */,
 				6BF8D0D719FDE11B003F1D02 /* AttributorPViewController.m */,
 				6BF8D0D919FDE11B003F1D02 /* Images.xcassets */,
@@ -253,6 +258,7 @@
 				6BF8D0D819FDE11B003F1D02 /* AttributorPViewController.m in Sources */,
 				6BF8D0CE19FDE11B003F1D02 /* main.m in Sources */,
 				6BF8D0D219FDE11B003F1D02 /* AttributorPAppDelegate.m in Sources */,
+				6B2049031A01D4BF002EEB1A /* TextStatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
